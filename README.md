@@ -6,3 +6,6 @@
   - Python 3.10.6
   - Tensorflow 2.11.0
   - Matplotlib 3.6.3
+
+
+- **NMT with Transfomers.ipynb** contains exact same code as given in the tutorial, while the project nmt_with_transformer has been adapted according to Python project structure.

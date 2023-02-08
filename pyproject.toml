@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nmt-with-transformer"
+version = "0.1.0"
+description = ""
+authors = ["Abhash Sinha <abhash_sinha@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "nmt_with_transformer"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+tensorflow-datasets = "^4.8.2"
+tensorflow = "^2.11.0"
+tensorflow-text = "^2.11.0"
+matplotlib = "^3.6.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+flake8 = "^6.0.0"
+pytest = "^7.2.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
